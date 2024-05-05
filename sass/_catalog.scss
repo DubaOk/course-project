@@ -1,0 +1,213 @@
+.block-base {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    gap: 15px;
+    
+    margin: 40px 30px 70px 30px;
+    .AW-item{
+        background-color: rgb(87, 159, 242, 0.68);
+        transition: all .3s ease;
+        &:hover{
+            transform: scale(1.02);
+        }
+        position: relative;
+        display: flex;
+        width: 420px;
+        min-height: 493px;
+        flex-direction: column;
+        align-items: center;
+    
+        .max-titte {
+            font-size: 40px;
+            text-align: right;
+            
+            padding-top: 90px;
+            max-width: 50px;
+
+            .artez{
+                font-size: 35px;
+            }
+        }
+    
+        .max-V {
+            font-size: 40px;
+            text-align: right;
+            padding-top: 15px;
+            padding-left: 170px;
+        }
+        .coast-button {
+            display: flex;
+            justify-content: space-between;
+            gap: 35px;
+            height: 37px;
+            margin-top: 110px;
+    
+            .button-max {
+                width: 168;
+                height: 54px;
+                border: 0px;
+                font-size: 30px;
+            border-radius: 30px;
+            background-color: rgb(19, 202, 19);
+            cursor: pointer;
+            transition: all .2s ease;
+            &:hover{
+                background-color: rgb(41, 153, 41)  ;
+            }
+            }
+    
+            .max-coast {
+                text-align: left;
+                font-size: 40px;
+            }
+            
+            
+        }
+        .coast-button-road {
+            display: flex;
+            justify-content: space-between;
+            gap: 35px;
+            height: 37px;
+            margin-top: 45px;
+                .button-max {
+                    width: 168;
+                    height: 54px;
+                    border: 0px;
+                    font-size: 30px;
+                border-radius: 30px;
+                background-color: rgb(19, 202, 19);
+                cursor: pointer;
+                transition: all .2s ease;
+                &:hover{
+                    background-color: rgb(41, 153, 41)  ;
+                }
+                }
+        
+                .max-coast {
+                    text-align: left;
+                    font-size: 40px;
+                }
+            }
+            .coast-button-artez {
+                display: flex;
+                justify-content: space-between;
+                gap: 35px;
+                height: 37px;
+                margin-top: 127px;
+        
+                .button-max {
+                    width: 168;
+                    height: 54px;
+                    border: 0px;
+                    font-size: 30px;
+                border-radius: 30px;
+                background-color: rgb(19, 202, 19);
+                cursor: pointer;
+                transition: all .2s ease;
+                &:hover{
+                    background-color: rgb(41, 153, 41)  ;
+                }
+                }
+        
+                .max-coast {
+                    text-align: left;
+                    font-size: 40px;
+                }
+                
+                
+            }
+    
+        
+            
+        .AW-max-image {
+            display: flex;
+            max-width: 304px;
+            align-self: left;
+            position: absolute;
+            align-self: left;
+            bottom: 135px;
+            top: 58px;
+            right: 168px;
+        }
+    
+        .AW-leg-image {
+            display: flex;
+            max-width: 330px;
+            max-height: 330px;
+            align-self: left;
+            position: absolute;
+            align-self: left;
+            bottom: 135px;
+            top: 58px;
+            right: 210px;
+        }
+        .AW-two-image {
+            display: flex;
+            max-width: 300px;
+            max-height: 300px;
+            align-self: left;
+            position: absolute;
+            align-self: left;
+            bottom: 135px;
+            top: 58px;
+            right: 210px;
+        }
+        .AW-one-image {
+            display: flex;
+            max-width: 280px;
+            max-height: 280px;
+            align-self: left;
+            position: absolute;
+            align-self: left;
+            bottom: 135px;
+            top: 58px;
+            right: 210px;
+        }
+        .AW-backpack-image {
+            display: flex;
+            max-width: 400px;
+            max-height: 400px;
+            align-self: left;
+            position: absolute;
+            align-self: right;
+            bottom: 135px;
+            top: 58px;
+            right: 130px;
+        }
+        .coast-button-backpack {
+            display: flex;
+            justify-content: space-between;
+            gap: 35px;
+            height: 37px;
+            margin-top: 50px;
+    
+            .button-max {
+                width: 168;
+                height: 54px;
+                border: 0px;
+                font-size: 30px;
+            border-radius: 30px;
+            background-color: rgb(19, 202, 19);
+            cursor: pointer;
+            transition: all .2s ease;
+            &:hover{
+                background-color: rgb(41, 153, 41)  ;
+            }
+            }
+    
+            .max-coast {
+                text-align: left;
+                font-size: 40px;
+            }
+            
+            
+        }
+    }
+
+
+}
